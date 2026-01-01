@@ -1,0 +1,88 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="th:action" />
+            <item index="1" class="java.lang.String" itemvalue="required" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+          <option value="BloodBankManagementSystem" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="ch.qos.logback:logback-core:1.5.12" />
+          <option value="ch.qos.logback:logback-classic:1.2.11" />
+          <option value="ch.qos.logback:logback-core:1.2.11" />
+          <option value="org.springframework:spring-core:5.3.26" />
+          <option value="org.springframework:spring-jdbc:5.3.26" />
+          <option value="org.yaml:snakeyaml:1.30" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-core:9.0.73" />
+          <option value="org.apache.tomcat.embed:tomcat-embed-websocket:9.0.73" />
+          <option value="org.springframework:spring-web:5.3.26" />
+          <option value="org.springframework:spring-beans:5.3.26" />
+          <option value="org.springframework:spring-webmvc:5.3.26" />
+          <option value="org.springframework:spring-context:5.3.26" />
+          <option value="org.springframework:spring-expression:5.3.26" />
+          <option value="org.springframework.boot:spring-boot-autoconfigure:2.7.10" />
+          <option value="org.springframework.security:spring-security-config:5.7.7" />
+          <option value="org.springframework.security:spring-security-core:5.7.7" />
+          <option value="org.springframework.security:spring-security-web:5.7.7" />
+          <option value="com.jayway.jsonpath:json-path:2.7.0" />
+          <option value="org.xmlunit:xmlunit-core:2.9.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
