@@ -14,6 +14,7 @@ import AdminLayout from './components/admin/AdminLayout';
 import DonationList from './components/admin/DonationList';
 import DonorList from './components/admin/DonorList';
 import WaitList from './components/admin/WaitList';
+// Day 3: minor UI cleanup
 
 export const AppContext = createContext();
 
