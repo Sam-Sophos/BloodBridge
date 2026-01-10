@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+## Development Notes
+
+- Built with React, TypeScript, and Vite
+- Uses Tailwind CSS for styling
+- Frontend is structured with reusable components
