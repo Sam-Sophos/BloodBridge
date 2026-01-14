@@ -27,29 +27,6 @@ function App() {
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/admin/*" element=*
-
-import DonateForm from "./components/DonateForm";
-import GetDonationForm from "./components/GetDonationForm";
-import Leaderboard from "./components/Leaderboard";
-import SignUp from "./components/SignUp";
-import SignIn from "./components/SignIn";
-import AdminLayout from "./components/admin/AdminLayout";
-
-function App() {
-  return (
-    <AppProvider>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/how-to-donate" element={<HowToDonate />} />
-          <Route path="/donate" element={<DonateForm />} />
-          <Route path="/request" element={<GetDonationForm />} />
-          <Route path="/leaderboard" element={<Leaderboard />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<SignIn />} />
           <Route path="/admin/*" element={<AdminLayout />} />
         </Routes>
         <Footer />
