@@ -12,6 +12,7 @@ import Leaderboard from "./components/Leaderboard";
 import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
 import AdminLayout from "./components/admin/AdminLayout";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
@@ -27,7 +28,15 @@ function App() {
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/admin/*" element={<AdminLayout />} />
+          <Route
+  path="/admin/*"
+  element={
+    <ProtectedRoute>
+      <AdminLayout />
+    </ProtectedRoute>
+  }
+/>
+
         </Routes>
         <Footer />
       </Router>
